@@ -1,6 +1,6 @@
 <div class="container">
   <div class="container__header">
-    <p>Where in the world?</p>
+    <p class="header__title">Where in the world?</p>
 
     <div class="container__header__dark-mode">
       <i class="darkmode-icon"></i>
@@ -10,11 +10,12 @@
   <div class="container__flags">
     <div class="container__flags-filters-row">
       <div class="filters-row__input">
-        <input type="text" placeholder="Search for a country...">
+        <input class="input" type="text" placeholder="Search for a country...">
       </div>
 
       <div class="filters-row__select">
-        <select name="region" id="select-region" placeholder="Filter by Region">
+        <select class="select" name="region" id="select-region">
+          <option value="0" selected>Filter by Region</option>
           <option value="1">Africa</option>
           <option value="1">America</option>
           <option value="1">Asia</option>

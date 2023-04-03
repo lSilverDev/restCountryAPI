@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* Colors */
+  /* Neutral */
+
+  --dark-blue: hsl(209, 23%, 22%);  /* Dark-Mode-Elements */
+  --very-dark-blue: hsl(207, 26%, 17%);  /* Dark Mode Background */
+  --very-dark-blue-lmt: hsl(200, 15%, 8%);  /* Light Mode Text */
+  --dark-gray: hsl(0, 0%, 52%);  /* Light Mode Input */
+  --very-light-gray: hsl(0, 0%, 98%);  /* Light Mode Background */
+  --white: hsl(0, 0%, 100%);  /* Dark Mode Text & Light Mode Elements */
+
+  /* Typography */
+  /* Body Copy */
+
+  --homepage-items: 14px;
+  --detail-page: 16px;
+
+  /* Fonts */
+
+  --family: 'Nunito Sans', sans-serif;
+  --Weights: 300, 600, 800;
+
+  /* Icons */
+  /* - [Font Awesome](https://fontawesome.com)
+  - [IcoMoon](https://icomoon.io)
+  - [Ionicons](https://ionicons.com) */
+}
+
+ *{
+  margin: 0;
+  padding: 0;
+ }
