@@ -23,7 +23,9 @@
   /* Fonts */
 
   --family: 'Nunito Sans', sans-serif;
-  --Weights: 300, 600, 800;
+  --Weight-300: 300;
+  --Weight-600: 600;
+  --Weight-800: 800;
 
   /* Icons */
   /* - [Font Awesome](https://fontawesome.com)

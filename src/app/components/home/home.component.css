@@ -41,9 +41,7 @@
   padding: 2em;
 }
 
-.filters-row__input{
-
-}
+.filters-row__input{}
 
 .input{
   color: var(--white);

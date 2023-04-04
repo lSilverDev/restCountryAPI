@@ -1,0 +1,27 @@
+.flag__container{
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  background-color: var(--dark-blue);
+  height: 18em;
+}
+
+.flag_detail{
+  padding: 1em;
+}
+
+.flag_detail{
+  color: var(--white);
+}
+
+.flag__country-name{
+  margin-bottom: .5em;
+  font-size: var(--homepage-items);
+  font-weight: var(--Weight-800);
+}
+
+.flag__country-detail{
+  font-size: var(--homepage-items);
+  font-weight: var(--Weight-600);
+  margin-bottom: .2em;
+}
