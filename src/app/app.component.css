@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var( --very-dark-blue);
+  font-family: var(--family);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container__header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 100vw;
+  height: 3vh;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-size: 1.8em;
+}
+
+.header__title{
+  margin-left: 1em;
+}
+
+.container__header__dark-mode{
+  margin-right: 1em;
+  font-size: var(--homepage-items);
+}

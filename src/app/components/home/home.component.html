@@ -1,31 +1,21 @@
-<div class="container">
-  <div class="container__header">
-    <p class="header__title">Where in the world?</p>
+<div class="container__flags">
+  <div class="container__flags-filters-row">
+    <div class="filters-row__input">
+      <input class="input" type="text" placeholder="Search for a country...">
+    </div>
 
-    <div class="container__header__dark-mode">
-      <i class="darkmode-icon"></i>
-      <p>Dark mode</p>
+    <div class="filters-row__select">
+      <select class="select" name="region" id="select-region">
+        <option value="0" selected>Filter by Region</option>
+        <option value="1">Africa</option>
+        <option value="1">America</option>
+        <option value="1">Asia</option>
+        <option value="1">Europe</option>
+        <option value="1">Oceania</option>
+      </select>
     </div>
   </div>
-  <div class="container__flags">
-    <div class="container__flags-filters-row">
-      <div class="filters-row__input">
-        <input class="input" type="text" placeholder="Search for a country...">
-      </div>
-
-      <div class="filters-row__select">
-        <select class="select" name="region" id="select-region">
-          <option value="0" selected>Filter by Region</option>
-          <option value="1">Africa</option>
-          <option value="1">America</option>
-          <option value="1">Asia</option>
-          <option value="1">Europe</option>
-          <option value="1">Oceania</option>
-        </select>
-      </div>
-    </div>
-    <div class="container__flags-flags">
-      <app-flag></app-flag>
-    </div>
+  <div class="container__flags-flags">
+    <app-flag></app-flag>
   </div>
 </div>
