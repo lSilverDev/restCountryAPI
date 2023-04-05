@@ -6,6 +6,8 @@
 .back__row{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .details__row{
@@ -21,7 +23,7 @@
 .flag__column{
   display: flex;
   flex-direction: column;
-  height: 50%;
+  width: 50%;
 }
 
 .flag-img{
@@ -31,12 +33,14 @@
 .details__column{
   display: flex;
   flex-direction: column;
-  height: 50%;
+  width: 50%;
 }
 
 .country__row{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
 
 .country__column{
