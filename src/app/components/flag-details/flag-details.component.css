@@ -11,9 +11,35 @@
 .details__row{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 97vh;
 }
 
 .flag__column{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.flag-img{
+  width: 40em;
+}
+
+.details__column{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+.country__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.country__column{
   display: flex;
   flex-direction: column;
 }
