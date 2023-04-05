@@ -1,0 +1,19 @@
+.container__details{
+  display: flex;
+  flex-direction: column;
+}
+
+.back__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.details__row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flag__column{
+  display: flex;
+  flex-direction: column;
+}
