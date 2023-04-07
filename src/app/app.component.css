@@ -28,3 +28,7 @@
   margin-right: 1em;
   font-size: var(--homepage-items);
 }
+
+.mode{
+ padding-left: .5em;
+}

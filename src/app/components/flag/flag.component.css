@@ -21,7 +21,7 @@
 .flag_detail{
   padding: 1em;
   color: var(--primary-text);
-  background-color: var(--primary-background);
+  background-color: var(--primary-elements);
 }
 
 .flag__country-name{

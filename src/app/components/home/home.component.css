@@ -15,7 +15,7 @@
 
 .input{
   color: var(--primary-text);
-  background-color: var(--primary-background);
+  background-color: var(--primary-elements);
   height: 2em;
   width: 30em;
   border: none;
@@ -28,7 +28,7 @@
 
 .select{
   color: var(--primary-text);
-  background-color: var(--primary-background);
+  background-color: var(--primary-elements);
   height: 4em;
   width: 12em;
   border: none;

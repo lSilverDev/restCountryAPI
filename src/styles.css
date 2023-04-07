@@ -26,7 +26,7 @@
   --primary-text: hsl(200, 15%, 8%);  /* Light Mode Text */
   --primary-input: hsl(0, 0%, 52%);  /* Light Mode Input */
   --primary-background: hsl(0, 0%, 98%);  /* Light Mode Background */
-  --primary-elements: hsl(0, 0%, 100%);  /* Dark Mode Text & Light Mode Elements */
+  --primary-elements: hsl(0, 0%, 100%);  /* Light Mode Elements */
 }
 
 *{
