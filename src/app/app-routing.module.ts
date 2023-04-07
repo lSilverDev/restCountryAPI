@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: 'flagDetail',
-    component: FlagDetailsComponent
+    component: FlagDetailsComponent,
   }
 ];
 

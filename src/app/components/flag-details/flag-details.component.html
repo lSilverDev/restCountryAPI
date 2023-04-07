@@ -1,36 +1,40 @@
 <div class="container__details">
   <div class="back__row">
-    <button class="back__btn">
-      <i class="icon_back"></i>
+    <button class="back__btn" (click)="return()">
+      <i class="icon_back">
+        <span class="material-symbols-outlined">
+          arrow_back
+        </span>
+      </i>
       <p>Back</p>
     </button>
   </div>
 
   <div class="details__row">
     <div class="flag__column">
-      <img class="flag-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png" alt="pais">
+      <img class="flag-img" src="{{country.flag}}" alt="{{country.name}}">
     </div>
     <div class="details__column">
       <div class="country__row">
-        <h2 class="country__title">Pais</h2>
+        <h2 class="country__title">{{country.name}}</h2>
       </div>
       <div class="country__row">
         <div class="country__column">
-          <p>Native Name: </p>
-          <p>Population: </p>
-          <p>Region: </p>
-          <p>Sub Region: </p>
-          <p>Capital: </p>
+          <p>Native Name: {{country.nativeName}}</p>
+          <p>Population: {{country.population}}</p>
+          <p>Region: {{country.region}}</p>
+          <p>Sub Region: {{country.subregion}}</p>
+          <p>Capital: {{country.capital}}</p>
         </div>
         <div class="country__column">
-          <p>Top Level Domain: </p>
-          <p>Currencies: </p>
-          <p>Languages: </p>
+          <p>Top Level Domain: {{country.topLevelDomain}}</p>
+          <div>Currencies: <p *ngFor="let currencie of country.currencies">{{currencie.name}}</p></div>
+          <div>Languages: <p *ngFor="let language of country.languages">{{language.name}}</p></div>
         </div>
       </div>
       <div class="country__row">
         <p class="border-countries">Border Countries: </p>
-        <button>pais</button>
+        <button *ngFor="let border of country.borders">{{border}}</button>
       </div>
     </div>
   </div>
