@@ -12,10 +12,15 @@ export class FlagDetailsComponent {
   constructor(private router: Router) {
     const nav = this.router.getCurrentNavigation();
     this.country = nav!.extras!.state!['country'];
-    console.log(this.country);
   }
 
   return(){
     this.router.navigateByUrl("/");
+  }
+
+  detailsCountry(country: any){
+    // this.router.navigateByUrl("/flagDetail", {
+    //   state: {country: country}
+    // });
   }
 }

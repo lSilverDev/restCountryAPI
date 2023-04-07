@@ -32,7 +32,7 @@
   align-items: center;
   flex-wrap: nowrap;
   width: 100vw;
-  height: 97vh;
+  height: 75vh;
 }
 
 .flag__column{
@@ -48,7 +48,8 @@
 .details__column{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
+  align-items: stretch;
 }
 
 .country__row{
@@ -56,9 +57,31 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
+  color: var(--white);
+}
+
+.currencies-div{}
+
+.languages-div{}
+
+.internal-value{
+  padding-left: 1em;
+}
+
+.country__row-border{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: var(--white);
 }
 
 .country__column{
   display: flex;
   flex-direction: column;
+}
+
+.btn__border{
+  padding: .5em;
 }

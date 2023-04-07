@@ -28,13 +28,13 @@
         </div>
         <div class="country__column">
           <p>Top Level Domain: {{country.topLevelDomain}}</p>
-          <div>Currencies: <p *ngFor="let currencie of country.currencies">{{currencie.name}}</p></div>
-          <div>Languages: <p *ngFor="let language of country.languages">{{language.name}}</p></div>
+          <div class="currencies-div">Currencies: <p class="internal-value" *ngFor="let currencie of country.currencies">- {{currencie.name}}</p></div>
+          <div class="languages-div">Languages: <p class="internal-value" *ngFor="let language of country.languages">- {{language.name}}</p></div>
         </div>
       </div>
-      <div class="country__row">
+      <div class="country__row-border">
         <p class="border-countries">Border Countries: </p>
-        <button *ngFor="let border of country.borders">{{border}}</button>
+        <button class="btn__border" *ngFor="let border of country.borders" (click)="detailsCountry(border)">{{border}}</button>
       </div>
     </div>
   </div>
