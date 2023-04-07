@@ -14,8 +14,8 @@
 .filters-row__input{}
 
 .input{
-  color: var(--white);
-  background-color: var(--dark-blue);
+  color: var(--primary-text);
+  background-color: var(--primary-background);
   height: 2em;
   width: 30em;
   border: none;
@@ -27,8 +27,8 @@
 }
 
 .select{
-  color: var(--white);
-  background-color: var(--dark-blue);
+  color: var(--primary-text);
+  background-color: var(--primary-background);
   height: 4em;
   width: 12em;
   border: none;

@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'restCountryAPI';
+  ligthMode = false;
+
+  changeMode(){
+    this.ligthMode = !this.ligthMode;
+  }
 }

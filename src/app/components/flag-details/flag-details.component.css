@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding: .5em;
-  color: var(--white);
+  color: var(--primary-text);
   background-color: transparent;
   border: 0;
   box-shadow: 1px 1px 1px 1px #00000044;
@@ -57,7 +57,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
-  color: var(--white);
+  color: var(--primary-text);
 }
 
 .currencies-div{}
@@ -74,7 +74,7 @@
   justify-content: space-around;
   flex-wrap: nowrap;
   align-items: center;
-  color: var(--white);
+  color: var(--primary-text);
 }
 
 .country__column{

@@ -20,8 +20,8 @@
 
 .flag_detail{
   padding: 1em;
-  color: var(--white);
-  background-color: var(--dark-blue);
+  color: var(--primary-text);
+  background-color: var(--primary-background);
 }
 
 .flag__country-name{

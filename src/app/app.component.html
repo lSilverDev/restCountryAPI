@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container" [ngClass]="ligthMode ? 'container ligth-theme' : 'container'">
   <div class="container__header">
     <p class="header__title">Where in the world?</p>
 
-    <div class="container__header__dark-mode">
+    <div class="container__header__dark-mode" (click)="changeMode()">
       <i class="darkmode-icon"><span class="material-symbols-outlined">dark_mode</span></i>
       <p>Dark mode</p>
     </div>

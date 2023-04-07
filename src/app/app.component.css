@@ -1,5 +1,5 @@
 .container{
-  background-color: var( --very-dark-blue);
+  background-color: var(--primary-background);
   font-family: var(--family);
 }
 
@@ -11,8 +11,8 @@
   padding: 1em;
   width: auto;
   height: 3vh;
-  background-color: var(--dark-blue);
-  color: var(--white);
+  background-color: var(--primary-elements);
+  color: var(--primary-text);
   font-size: 1.8em;
 }
 
