@@ -1,12 +1,17 @@
 <div class="flag__container">
   <div class="flag" *ngFor="let list of listCountry" (click)="detail(list)">
-    <img class="flag__img" src="{{list.flag}}" alt="{{list.name}}">
-    <div class="flag_detail">
-      <p class="flag__country-name">Pais: {{list.name}}</p>
-      <p class="flag__country-detail">Population: {{list.population}}</p>
-      <p class="flag__country-detail">Region: {{list.subregion}}</p>
-      <p class="flag__country-detail">Capital: {{list.capital}}</p>
+    <div class="flag__img-container">
+      <img class="flag__img" src="{{list.flag}}" alt="{{list.name}}">
     </div>
+    <div class="flag__details-container">
+      <div class="flag_detail">
+        <p class="flag__country-name">Pais: {{list.name}}</p>
+        <p class="flag__country-detail">Population: {{list.population}}</p>
+        <p class="flag__country-detail">Region: {{list.subregion}}</p>
+        <p class="flag__country-detail">Capital: {{list.capital}}</p>
+      </div>
+    </div>
+
   </div>
 </div>
 

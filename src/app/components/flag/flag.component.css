@@ -6,19 +6,32 @@
   flex-direction: row;
 }
 
+.flag__img-container{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
 .flag{
   display: flex;
   flex-direction: column;
   width: 20em;
+  height: 20em;
   padding: 1em;
 }
 
 .flag__img{
+  max-height: 12em;
   width: 100%;
-  height: 100%;
+}
+
+.flag__details-container{
+  display: flex;
+  flex-direction: row;
 }
 
 .flag_detail{
+  flex: auto;
   padding: 1em;
   color: var(--primary-text);
   background-color: var(--primary-elements);
