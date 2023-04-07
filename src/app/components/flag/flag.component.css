@@ -1,17 +1,27 @@
 .flag__container{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.flag{
+  display: flex;
   flex-direction: column;
   width: 20em;
-  background-color: var(--dark-blue);
-  height: 18em;
+  padding: 1em;
+}
+
+.flag__img{
+  width: 100%;
+  height: 100%;
 }
 
 .flag_detail{
   padding: 1em;
-}
-
-.flag_detail{
   color: var(--white);
+  background-color: var(--dark-blue);
 }
 
 .flag__country-name{
