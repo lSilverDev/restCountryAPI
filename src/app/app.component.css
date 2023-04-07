@@ -16,16 +16,11 @@
   font-size: 1.8em;
 }
 
-.header__title{
-  margin-left: 1em;
-}
-
 .container__header__dark-mode{
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  margin-right: 1em;
   font-size: var(--homepage-items);
 }
 

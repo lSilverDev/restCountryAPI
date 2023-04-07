@@ -1,13 +1,10 @@
-.container__flags{
-  width: 100vw;
-}
+.container__flags{}
 
 .container__flags-filters-row{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
   padding: 2em;
 }
 
@@ -20,10 +17,11 @@
   width: 30em;
   border: none;
   padding: 1em;
+  margin-left: 1em;
 }
 
 .filters-row__select{
-  margin-right: 4em;
+  margin-right: 1em;
 }
 
 .select{
