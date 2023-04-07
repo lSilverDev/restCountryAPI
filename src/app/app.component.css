@@ -1,11 +1,6 @@
 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: var( --very-dark-blue);
   font-family: var(--family);
-  height: 100vh;
-  width: 100vw;
 }
 
 .container__header{
@@ -14,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  width: 100vw;
+  width: auto;
   height: 3vh;
   background-color: var(--dark-blue);
   color: var(--white);
@@ -26,6 +21,10 @@
 }
 
 .container__header__dark-mode{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   margin-right: 1em;
   font-size: var(--homepage-items);
 }
