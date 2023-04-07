@@ -1,9 +1,13 @@
 <div class="flag__container">
-  <img class="flag__img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png" alt="pais">
-  <div class="flag_detail">
-    <p class="flag__country-name">Pais:</p>
-    <p class="flag__country-detail">Population:</p>
-    <p class="flag__country-detail">Region:</p>
-    <p class="flag__country-detail">Capital:</p>
+  <div *ngFor="let list of listCountry">
+    <img class="flag__img" src="{{list.flag}}" alt="{{list.name}}">
+    <div class="flag_detail">
+      <p class="flag__country-name">Pais: {{list.name}}</p>
+      <p class="flag__country-detail">Population: {{list.population}}</p>
+      <p class="flag__country-detail">Region: {{list.subregion}}</p>
+      <p class="flag__country-detail">Capital: {{list.capital}}</p>
+    </div>
   </div>
 </div>
+
+
