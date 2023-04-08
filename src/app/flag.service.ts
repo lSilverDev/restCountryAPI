@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -24,5 +24,9 @@ export class FlagService {
       return this.http.get(this.API);
     }
     return this.http.get(`${this.API}?region=${region}`);
+  }
+
+  getCountry(country: string): Observable<any>{
+    return this.http.get(`${this.API}?alpha3Code=${country}`);
   }
 }

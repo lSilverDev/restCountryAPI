@@ -43,6 +43,7 @@
 
 .flag-img{
   width: 40em;
+  box-shadow: 1px 1px 1px 1px #00000044;
 }
 
 .details__column{
@@ -84,4 +85,7 @@
 
 .btn__border{
   padding: .5em;
+  background: transparent;
+  color: var(--primary-text);
+  box-shadow: 1px 1px 1px 1px #00000044;
 }

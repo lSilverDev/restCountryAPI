@@ -1,3 +1,4 @@
+import { FlagService } from 'src/app/flag.service';
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -8,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class FlagDetailsComponent {
   country: any;
+  countryDetails: any;
 
   constructor(private router: Router) {
     const nav = this.router.getCurrentNavigation();
@@ -16,11 +18,5 @@ export class FlagDetailsComponent {
 
   return(){
     this.router.navigateByUrl("/");
-  }
-
-  detailsCountry(country: any){
-    // this.router.navigateByUrl("/flagDetail", {
-    //   state: {country: country}
-    // });
   }
 }
