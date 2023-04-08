@@ -39,6 +39,10 @@
   align-items: center;
 }
 
+.container__flags-oneFlag{
+  height: calc(100vh - 202px);
+}
+
 .empty_list{
   height: calc(100vh - 202px);
   display: flex;

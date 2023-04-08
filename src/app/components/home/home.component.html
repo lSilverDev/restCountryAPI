@@ -22,7 +22,7 @@
       </select>
     </div>
   </div>
-  <div class="container__flags-flags">
+  <div [ngClass]="listCountry.length > 1 ? 'container__flags-flags' : 'container__flags-flags container__flags-oneFlag'">
     <app-flag [listCountry]="listCountry" *ngIf="listCountry.length > 0"></app-flag>
     <div class="empty_list" *ngIf="listCountry.length == 0">
       <p class="title">No country found</p>
