@@ -38,3 +38,15 @@
   flex-direction: row;
   align-items: center;
 }
+
+.empty_list{
+  height: calc(100vh - 202px);
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  color: var(--primary-text);
+  font-size: 1.8em;
+  padding: 1.5em;
+}

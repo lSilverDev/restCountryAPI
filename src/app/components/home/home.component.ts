@@ -8,6 +8,8 @@ import { FlagService } from 'src/app/flag.service';
 })
 export class HomeComponent {
   listCountry = [];
+  filter: string = '';
+  region: string = '';
 
   constructor(private service: FlagService){}
 
@@ -17,7 +19,15 @@ export class HomeComponent {
     });
   }
 
-  showInfo(){
-    console.log(this.listCountry);
+  search(){
+    this.service.listCountry(this.filter).subscribe((list) => {
+      this.listCountry = list;
+    });
+  }
+
+  listRegion(){
+    this.service.listRegion(this.region).subscribe((list) => {
+      this.listCountry = list;
+    });
   }
 }

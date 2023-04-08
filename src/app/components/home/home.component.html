@@ -1,21 +1,31 @@
 <div class="container__flags">
   <div class="container__flags-filters-row">
     <div class="filters-row__input">
-      <input class="input" type="text" placeholder="Search for a country...">
+      <input
+      id="searchCountry"
+      class="input"
+      type="text"
+      placeholder="Search for a country..."
+      [(ngModel)]="filter"
+      (keyup)="search()"
+      >
     </div>
 
     <div class="filters-row__select">
-      <select class="select" name="region" id="select-region">
-        <option class="option" value="0" selected>Filter by Region</option>
-        <option class="option" value="1">Africa</option>
-        <option class="option" value="1">America</option>
-        <option class="option" value="1">Asia</option>
-        <option class="option" value="1">Europe</option>
-        <option class="option" value="1">Oceania</option>
+      <select [(ngModel)]="region" (ngModelChange)="listRegion()" class="select" name="region" id="select-region">
+        <option class="option" value="" selected>Filter by Region</option>
+        <option class="option" value="Africa">Africa</option>
+        <option class="option" value="Americas">Americas</option>
+        <option class="option" value="Asia">Asia</option>
+        <option class="option" value="Europe">Europe</option>
+        <option class="option" value="Oceania">Oceania</option>
       </select>
     </div>
   </div>
   <div class="container__flags-flags">
-    <app-flag [listCountry]="listCountry" ></app-flag>
+    <app-flag [listCountry]="listCountry" *ngIf="listCountry.length > 0"></app-flag>
+    <div class="empty_list" *ngIf="listCountry.length == 0">
+      <p class="title">No country found</p>
+    </div>
   </div>
 </div>
