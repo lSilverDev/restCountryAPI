@@ -2,26 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
+This project is an easy way to see details about the countries around the world. You can filter for region or name, and in the details, you will see information about population, currencies, languages, and more. 
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm run start-serve` for a "mock" server. 
+Navigate to `http://localhost:1919/flags`.
 
-## Code scaffolding
+## Running the application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve`.
+Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
+# Frontend Mentor - REST Countries API with color theme switcher
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Design preview for the REST Countries API with color theme switcher coding challenge](src/assets/design/desktop-preview.jpg)
